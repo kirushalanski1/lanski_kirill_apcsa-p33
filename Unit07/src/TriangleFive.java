@@ -39,9 +39,9 @@ public class TriangleFive
 		int row_counter = amount;
 		
 		
-		for (int z = 0; z <= amount; z++) { // # of rows
-			for (int w = 0; w <= row_counter; w++) { // # of sets in each row
-				for (int i = 0; i <= set_counter; i++) { // # of letter repeats in each set
+		for (int z = 0; z < amount; z++) { // # of rows
+			for (int w = 0; w < row_counter; w++) { // # of sets in each row
+				for (int i = 0; i < set_counter; i++) { // # of letter repeats in each set
 					output += letter;
 				}
 				output += " ";
